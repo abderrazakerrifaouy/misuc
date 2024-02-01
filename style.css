@@ -1,0 +1,254 @@
+body {
+    background-image: url(imge/image_9101018.png);
+    background-repeat: no-repeat;
+    background-size: 50%;
+}
+
+.cntenar {
+
+    height: 100vh;
+    display: grid;
+    gap: 20px;
+    grid-template-rows: 20vh 80vh 50vh;
+    grid-template-areas:
+        "ana ana logo logo"
+        "home home home home"
+        "Home2 Home2 Home2 Home2"
+        "ala ala ala ala"
+        "listen listen listen listen"
+        "fot fot fot fot"
+    ;
+}
+
+.logo {
+    grid-area: logo;
+
+
+
+}
+.photr{
+    grid-area: fot;
+    background-color: #000;
+}
+.h55{
+    position:relative;
+    margin-top: 40px;
+    font-size: 30px;
+}
+
+#pills-contact{
+    margin-left: 15px;
+    margin-top: 65px;
+    grid-area: listen;
+    color: aliceblue;
+}
+
+#pills-contact h3{
+    margin-top: -5%;
+    margin-left: 20%;
+    margin-bottom: 40px;
+}
+
+.logoText {
+    position: relative;
+    /* top: -10px; */
+    left: -30%;
+    font-size: 100px;
+    height: 100%;
+    text-align: center;
+    color: transparent;
+    -webkit-text-stroke-width: 4px;
+    -webkit-text-stroke-color: rgb(220 104 3);
+
+
+}
+
+.home {
+    margin-top: 5%;
+    margin-left: 20%;
+    grid-area: home;
+    /* background-color: rgb(180, 108, 0); */
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    gap: 40px;
+}
+.tab-pane{
+
+}
+.text {
+    width: 95%;
+    grid-area: text;
+    grid-column-start: 2;
+    grid-row-start: 1;
+    grid-column-end: 6;
+    display: flex;
+    gap: 20px;
+    color: aliceblue;
+
+
+
+}
+.card__description{
+    font-size: 1px;
+}
+
+.ta3erif {
+    width: 71%;
+    color: aliceblue;
+    font-size: 30px;
+}
+
+.MUSIC {
+    font-size: 40px;
+    background: linear-gradient(90deg, #faf8f8, #7a5333, #c55c06);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.loading {
+    position: absolute;
+    left: 200px;
+    grid-area: ana;
+    width: 50vh;
+    margin-top: 60px;
+    top: 40px;
+}
+
+
+.ala {
+    margin-top: 90px;
+    width: 100%;
+    height: 100vh;
+    grid-area: ala;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10vh;
+}
+
+.photo {
+    width: 200px;
+    height: 200px;
+    color: #a6a5bb;
+    border-radius: 20px;
+    box-shadow: 0 0 0 5px #12263e;
+    margin: auto;
+
+}
+
+.tof1 img {
+    border-radius: 20px 20px 0 0;
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+.listen {
+    grid-area: listen;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 400px;
+}
+
+.song {
+    background-color: rgba(3, 3, 3, 0.137);
+    width: 80%;
+    height: 200px;
+    display: grid;
+    column-gap: 20px;
+    grid-template-rows: 30% 70% ;
+    grid-template-areas:
+        "walo tetl tetl tetl"
+        "vocale vocale text-nos text-nos"
+    ;
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px 5px #000;
+    transition: 1s;
+}
+
+.song:hover{
+    width: 85%;
+    height: 210px;
+}
+
+.text-nos {
+    grid-area: text-nos;
+   width: 400px;
+}
+
+.tetl {
+    grid-template-areas: tetl;
+    width:100% ;
+    text-align: center;
+    font-size: 40px;
+    margin-left: 100px;
+    margin-bottom: 20px;
+
+}
+
+.vocale {
+    grid-area: vocale;
+
+}
+.walo{
+    grid-area: walo;
+}
+.audio{
+    margin-left: 80px;
+    /* margin-top: 10px; */
+    
+}
+
+
+.Home2{
+     margin-left: 20%;
+     
+
+    width: 70%;
+    height: 100px;;
+    display: flex;
+    grid-area: Home2;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.Home2 h3{
+    margin-right: 40px;
+    font-size: 50px;
+    width: 300px;
+    background: linear-gradient(90deg, #faf8f8, #7a5333, #c55c06);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.Home2 p{
+    color: #faf8f8;
+}
+.Home2 div{
+    margin-top: 30%;
+}
+
+
+.abdo{
+    color: #faf8f8;
+    position: absolute;
+    font-size: 80px;
+    top: 110%;
+    left: 40%;
+}
